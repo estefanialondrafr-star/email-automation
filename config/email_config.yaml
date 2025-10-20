@@ -1,0 +1,24 @@
+email_accounts:
+  primary:
+    email: "tu.email@gmail.com"
+    smtp_server: "smtp.gmail.com"
+    smtp_port: 587
+    imap_server: "imap.gmail.com"
+    imap_port: 993
+    
+  secondary:
+    email: "tu.email@empresa.com"
+    smtp_server: "smtp.office365.com"
+    smtp_port: 587
+    imap_server: "outlook.office365.com"
+    imap_port: 993
+
+templates:
+  welcome: "config/templates/welcome_template.html"
+  newsletter: "config/templates/newsletter_template.html"
+  notification: "config/templates/notification_template.html"
+
+settings:
+  daily_send_limit: 100
+  delay_between_emails: 2
+  auto_backup: true
